@@ -9,20 +9,22 @@ html {
 
 h1 {
   font-family: 'Sigmar One', cursive;
-  color: #cc1465;
+  color: #b20953;
   line-height: 1.5;
   text-align: center;
 }
 
 h2 {
   font-family: 'Sigmar One', cursive;
-  color: #cc1465;
+  color: #b20953;
   line-height: 1.5;
 }
 
 .nav {
   list-style-type: none;
   text-align: center;
+  line-height: 1.5;
+  padding: .75em;
 }
 
 .nav li {
@@ -38,19 +40,36 @@ a {
   border-radius: 4px;
 }
 
-a :hover {
-
+a:hover {
+  background-color: #cc1465;
+  border: 1px solid #cc1465;
+  border-radius: 4px;
 }
 
 main {
+  background-color: white;
+  color: #2f2d13;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.body1 {
   text-align: center;
   background-color: white;
   color: #2f2d13;
+  line-height: 1.5;
+  padding: 0;
 }
 
 em {
   font-weight: bold;
   font-style: normal;
+  color: #2f2d13;
+}
+
+figcaption {
+  text-align: left;
+  font-family: 'Georgia', cursive;
   color: #2f2d13;
 }
 
