@@ -8,14 +8,14 @@ html {
 }
 
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   line-height: 1.5;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   line-height: 1.5;
 }
@@ -25,6 +25,7 @@ h2 {
   text-align: center;
   line-height: 1.5;
   padding: .75em;
+  margin: 0;
 }
 
 .nav li {
@@ -33,10 +34,10 @@ h2 {
 
 a {
   text-decoration: none;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   color: white;
   background-color: #b2a212;
-  border: 1px solid #b2a212;
+  border: 5px solid #b2a212;
   border-radius: 4px;
 }
 
@@ -59,6 +60,11 @@ main {
   color: #2f2d13;
   line-height: 1.5;
   padding: 0;
+  display: block;
+}
+
+body {
+  margin: 0;
 }
 
 em {
@@ -69,11 +75,11 @@ em {
 
 figcaption {
   text-align: left;
-  font-family: 'Georgia', cursive;
+  font-family: Georgia, cursive;
   color: #2f2d13;
 }
 
 footer {
-  font-family: 'Georgia', cursive;
+  font-family: Georgia, cursive;
   text-align: center;
 }
